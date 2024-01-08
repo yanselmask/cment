@@ -17,3 +17,5 @@ use Illuminate\Support\Facades\Artisan;
 Artisan::command('inspire', function () {
     $this->comment(Inspiring::quote());
 })->purpose('Display an inspiring quote');
+
+\Laravel\Prompts\Prompt::fallbackWhen(shell_exec('tput lines') < 8);
