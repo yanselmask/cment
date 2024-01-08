@@ -48,7 +48,13 @@
     php artisan storage:link
     ```
 
-7. Done!
+7. Download node dependencies(optional):
+
+    ```shell
+    npm install && npm run dev ||  yarn && yarn
+    ```
+
+8. Done!
 
 ## Usage
 
