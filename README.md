@@ -51,7 +51,7 @@
 7. Download node dependencies(optional):
 
     ```shell
-    npm install && npm run dev
+    npm install && npm run build
     ```
 
 8. Done!
