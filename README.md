@@ -21,7 +21,7 @@
 2. Browse folder:
 
     ```shell
-    cd ./name-folder
+    cd ./cment
     ```
 
 3. Rename the .env.example file:
@@ -30,19 +30,25 @@
     cp .env.example .env
     ```
 
-4. Generate a key for the Laravel application:
+4. Download the dependencies:
+
+    ```shell
+    composer install
+    ```
+
+5. Generate a key for the Laravel application:
 
     ```shell
     php artisan key:generate
     ```
 
-5. Generate a symbolic link(optional):
+6. Generate a symbolic link(optional):
 
     ```shell
     php artisan storage:link
     ```
 
-6. Done!
+7. Done!
 
 ## Usage
 
