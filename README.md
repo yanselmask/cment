@@ -51,7 +51,7 @@
 7. Download node dependencies(optional):
 
     ```shell
-    npm install && npm run dev ||  yarn && yarn
+    npm install && npm run dev ||  yarn && yarn dev
     ```
 
 8. Done!
