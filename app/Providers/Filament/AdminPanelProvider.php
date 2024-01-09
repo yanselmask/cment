@@ -68,6 +68,7 @@ class AdminPanelProvider extends PanelProvider
                     ->withExtraFields([
                         \Filament\Forms\Components\TextInput::make('id'),
                         \Filament\Forms\Components\TextInput::make('classes'),
+                        \Filament\Forms\Components\TextInput::make('icon'),
                     ])
                     ->itemType('Post', [
                         \Filament\Forms\Components\Select::make('post_id')

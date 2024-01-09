@@ -14,7 +14,7 @@ class Category extends Model
 {
     use HasFactory, ModelTree, HasSlug, HasTranslations;
 
-    protected $fillable = ["parent_id", "title", "order", 'description', 'color', 'background', 'x_icon', 'image'];
+    protected $fillable = ["parent_id", "title", "slug", "type", "order", 'description', 'color', 'background', 'x_icon', 'image'];
 
     protected $table = 'categories';
 
